@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
+.bg-primary {
+  background-color: #2f55d4 !important;
+}
+
+.bg-half {
+  padding: 184px 0 90px;
+  background-size: cover;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  background-position: center center;
+}
+
+.bg-light {
+  background-color: #f8f9fc !important;
+}
+
+.page-next-level .title {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.page-next-level .page-next {
+  position: relative;
+  top: 110px;
+  z-index: 99;
+}
+
+.breadcrumb {
+  letter-spacing: 0.5px;
+  padding: 8px 24px;
+  display: block;
+}
+
+.breadcrumb .breadcrumb-item {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.breadcrumb .breadcrumb-item a {
+  color: #3c4858;
+}
+
+.breadcrumb .breadcrumb-item a:hover {
+  color: #2f55d4;
+}
+
+.breadcrumb .breadcrumb-item.active {
+  color: #2f55d4;
+}
+
+.breadcrumb .breadcrumb-item:before {
+  content: "";
+}
+
+.breadcrumb .breadcrumb-item:after {
+  content: "\F0142" !important;
+  font-size: 14px;
+  color: #3c4858;
+  font-family: 'Material Design Icons';
+  padding-left: 5px;
+}
+
+.rounded {
+  border-radius: 6px !important;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
+          box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
+}
+
+.text-danger {
+  color: #e43f52 !important;
+}
+
+a {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+a.text-danger:hover, a.text-danger:focus {
+  color: #e1293e !important;
+}
+
+.section {
+  padding: 100px 0;
+  position: relative;
+}
+
+.form-control {
+  background-color: #27314f;
+  border: 1px solid #27314f;
+  color: #f8f9fc;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-control {
+  color: #adb5bd;
+}
+
+.card .card-body {
+  padding: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.form-group .form-control {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  color: #3c4858;
+  height: 42px;
+  font-size: 13px;
+  border-radius: 6px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.form-group .form-control:focus, .form-group .form-control.active {
+  border-color: #2f55d4;
+}
+
+.form-group textarea {
+  height: 120px !important;
+}
+
+.form-group textarea.form-control {
+  line-height: 25px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.position {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.position a {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.position a:hover {
+  color: #2f55d4 !important;
+}

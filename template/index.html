@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Water Monitoring</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Water Monitoring" />
+    <!-- Bootstrap -->
+    <link href="static/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link href="static/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+    <!-- Main Css -->
+    <link href="static/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <link href="static/colors/default.css" rel="stylesheet" id="color-opt">
+
+    
+</head>
+
+<body> 
+    <!-- Hero Start -->
+    <section class="bg-light d-table w-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <div class="page-next-level">
+                        <h4 class="title" style="margin-top:50px;">Water Monitoring System</h4>
+                        <button class="btn btn-primary"><a href="http://127.0.0.1:5000/login"><span style="color: white;">Admin Login</span></a></button>
+                        <div class="page-next">
+                            <nav aria-label="breadcrumb" class="d-inline-block">
+                                <ul class="breadcrumb bg-white rounded shadow mb-0">
+                        
+                                    <li class="breadcrumb-item"><a href="index.html">Predict values</a></li>
+                                    
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>  <!--end col-->
+            </div><!--end row-->
+        </div> <!--end container-->
+    </section>
+    <!-- Hero End -->
+
+    <!-- Form Start -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-7">
+                    <div class="card custom-form border-0">
+                        <div class="card-body">
+                            <form class="rounded shadow p-4" action=http://127.0.0.1:5000/final name="waterpot" method="POST">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group position-relative">
+                                            <label>Water ID<span class="text-danger">*</span></label>
+                                            
+                                            <input name="d" id="d" type="text" class="form-control pl-5" placeholder="Enter Water ID given to you" required>
+                                        </div>
+                                    </div><!--end col-->
+
+                                    <div class="col-md-12">
+                                        <div class="form-group position-relative">
+                                            <label>pH value<span class="text-danger">*</span></label>
+                                            
+                                            <input name="ph" id="ph" type="text" class="form-control pl-5" placeholder="Enter pH value between 1-14" required>
+                                        </div>
+                                    </div><!--end col-->
+
+                                    <div class="col-md-12">
+                                        <div class="form-group position-relative">
+                                            <label>Conductivity<span class="text-danger">*</span></label>
+                                            <input name="conductivity" id="conductivity" type="text" class="form-control pl-5" placeholder="Enter Conductivity value in mg/l" required>
+                                        </div> 
+                                    </div><!--end col-->
+
+                                    <div class="col-md-12">
+                                        <div class="form-group position-relative">
+                                            <label>Turbidity<span class="text-danger">*</span></label>
+                                            
+                                            <input name="turbidity" id="turbidity" type="text" class="form-control pl-5" placeholder="Enter Turbidity value in NTU" required>
+                                        </div> 
+                                    </div><!--end col-->
+
+                                    <div class="col-md-12">
+                                        <div class="form-group position-relative">
+                                            <label>Email<span class="text-danger">*</span></label>
+                                            
+                                            <input name="email" id="email" type="email" class="form-control pl-5" placeholder="Enter Email" required>
+                                        </div> 
+                                    </div><!--end col-->
+
+                                    <div class="col-md-4">
+                                        <div class="form-group position-relative">
+                                            <label>Place<span class="text-danger">*</span></label>
+                                            
+                                            <input name="place" id="place" type="text" class="form-control pl-5" placeholder="Enter place name" required>
+                                        </div> 
+                                    </div><!--end col-->
+
+                                    <div class="col-md-4">
+                                        <div class="form-group position-relative">
+                                            <label>Latitude<span class="text-danger">*</span></label>
+                                            
+                                            <input name="lat" id="lat" type="text" class="form-control pl-5" placeholder="Enter Latitude" required>
+                                        </div> 
+                                    </div><!--end col-->
+
+                                    <div class="col-md-4">
+                                        <div class="form-group position-relative">
+                                            <label>Longitude<span class="text-danger">*</span></label>
+                                            
+                                            <input name="lon" id="lon" type="text" class="form-control pl-5" placeholder="Enter Longitude" required>
+                                        </div> 
+                                    </div><!--end col-->
+
+                                </div><!--end row-->
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary" value="Submit">
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </form><!--end form-->
+                        </div> 
+
+                    </div><!--end custom-form-->
+                </div>  
+            </div>
+        </div><!--end container-->
+    </section><!--end section-->
+    <!-- Job apply form End -->
+
+    
+    
+    <!-- Main Js -->
+    <script src="js/app.js"></script>
+</body>
+</html>

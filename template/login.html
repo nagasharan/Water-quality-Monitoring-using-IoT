@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Login Page</title>
+        <!-- Bootstrap -->
+        <link href="static/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="static/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+        <!-- Main Css -->
+        <link href="static/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="static/colors/default.css" rel="stylesheet" id="color-opt">
+
+    </head>
+    <body>
+
+        <!-- login Start -->
+        <section class="bg-home bg-circle-gradiant d-flex align-items-center">
+            <div class="bg-overlay bg-overlay-white"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-md-8"> 
+                        <div class="card login-page bg-white shadow rounded border-0">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Login</h4>  
+                                <form class="login-form mt-4" method="POST">
+                                    <div class="row">
+                                       <div class="col-lg-12">
+                                                <div class="form-group position-relative">
+                                                    <label>Your Username<span class="text-danger">*</span></label>
+                                                    <i data-feather="user" class="fea icon-sm icons"></i>
+                                                    <input type="text" class="form-control pl-5" placeholder="Username" name="username" id="username" required="">
+                                                </div>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <div class="form-group position-relative">
+                                                <label>Password <span class="text-danger">*</span></label>
+                                                <i data-feather="key" class="fea icon-sm icons"></i>
+                                                <input type="Password" class="form-control pl-5" placeholder="Password" name="password" id="password" required="">
+                                            </div>
+                                        </div>
+
+                                            
+                                        <div class="col-lg-12 mb-0">
+                                            <button class="btn btn-primary btn-block" type=submit value id="login">Log in</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                 <div class="card-title"><p style="color: red;">{{error}} </p></div>
+                            </div>
+                        </div><!---->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div> <!--end container-->
+        </section>    
+        <!-- login End -->
+        
+    </body>
+</html>
